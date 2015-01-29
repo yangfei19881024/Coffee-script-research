@@ -1,4 +1,4 @@
-var age, name, yell;
+var age, cube, name, square, yell;
 
 name = "yangfei";
 
@@ -15,3 +15,11 @@ yell = function(a) {
 };
 
 yell(10);
+
+square = function(x) {
+  return x * x;
+};
+
+cube = function(x) {
+  return square(x) * x;
+};

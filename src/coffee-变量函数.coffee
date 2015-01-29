@@ -11,4 +11,9 @@ yell = (a) ->
 
 yell(10)
 
+square = (x) ->
+  x*x
+
+cube = (x) ->
+  square(x)*x
 
